@@ -29,8 +29,9 @@ class _MyAppState extends State<MyApp> {
   int _paginaActual = 0;
   var index;
   List<Widget> _paginas = [
+     login(),
       register(),
-      login(),
+     
       setting(),
   ];
 
